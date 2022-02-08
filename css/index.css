@@ -1,10 +1,12 @@
 @import url('global/global.css');
-@import url('global/header.css');
 @import url('utilidades/cores.css');
 @import url('utilidades/tipografia.css');
+
+@import url('global/header.css');
 
 /* utilidades */
 @import url('utilidades/componentes.css');
 
-/* introdução */
+/* Home */
 @import url('introducao/introducao.css');
+@import url('bicicletas/bicicletas-lista.css');
