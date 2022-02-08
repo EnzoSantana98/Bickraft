@@ -27,3 +27,13 @@
     font-size: 1rem;
   }
 }
+
+.botao-1 {
+  align-self: start;
+  padding-bottom: 4px;
+  border-bottom: 4px solid currentColor;
+}
+
+.botao-1:hover {
+  color: var(--cor-0);
+}
