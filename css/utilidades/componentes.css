@@ -15,6 +15,7 @@
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font: 600 1.125rem/1.35 'Roboto', sans-serif;
+  max-width: max-content;
 }
 
 .botao:hover {
@@ -36,4 +37,13 @@
 
 .botao-1:hover {
   color: var(--cor-0);
+}
+
+.botao.secundario {
+  background: var(--cor-10);
+  color: var(--cor-3);
+}
+
+.botao.secundario:hover {
+  background-color: var(--cor-9);
 }
