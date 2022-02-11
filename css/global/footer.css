@@ -17,6 +17,10 @@
   margin-top: 20px;
 }
 
+.footer a:hover {
+  color: var(--cor-1);
+}
+
 .footer-contato li:nth-child(even)::after {
   content: '';
   display: block;
