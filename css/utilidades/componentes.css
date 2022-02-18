@@ -29,6 +29,13 @@
   }
 }
 
+@media (max-width: 400px) {
+  .botao {
+    font: 600 0.8rem/1.35 'Roboto', sans-serif;
+  }
+}
+
+/* variação botão 1 */
 .botao-1 {
   align-self: start;
   padding-bottom: 4px;
@@ -39,6 +46,7 @@
   color: var(--cor-0);
 }
 
+/* botão secundário */
 .botao.secundario {
   background: var(--cor-10);
   color: var(--cor-3);
@@ -48,6 +56,27 @@
   background-color: var(--cor-9);
 }
 
+/* botão com seta */
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 16px;
+  background-image: url('../../img/icones/seta.svg');
+  transition: 0.2s;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(8px);
+}
+
+/* título geral */
 .titulo-bg {
   background-color: var(--cor-11);
   padding-top: 60px;
