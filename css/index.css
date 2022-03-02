@@ -1,11 +1,11 @@
 @import url('global/global.css');
-@import url('utilidades/cores.css');
-@import url('utilidades/tipografia.css');
 
 @import url('global/header.css');
 @import url('global/footer.css');
 
 /* utilidades */
+@import url('utilidades/cores.css');
+@import url('utilidades/tipografia.css');
 @import url('utilidades/componentes.css');
 
 /* Home */
@@ -20,6 +20,8 @@
 
 /* Seguros */
 @import url('../css/seguros/seguros.css');
+@import url('../css/seguros/vantagens.css');
+@import url('../css/seguros/perguntas.css');
 
 /* termos */
 @import url('../css/termos/termos.css');
