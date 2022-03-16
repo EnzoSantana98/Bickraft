@@ -28,5 +28,10 @@ a {
 img {
   max-width: 100%;
   display: block;
+  width: auto;
+  height: auto;
+}
+
+img[src$='.jpg'] {
   border-radius: 4px;
 }
